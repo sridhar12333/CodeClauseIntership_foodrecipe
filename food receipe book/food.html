@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book</title>
+    <link rel="stylesheet" href="food.css">
+    <link rel="stylesheet" href="view.html">
+</head>
+<body>
+    <header class="container">
+        <nav class="navbar">
+            <h1 >
+               Recipe book
+
+            </h1>
+           
+            <div class="dropdownu">
+           
+             <ul class="dd"> 
+               <svg class="hide" onclick = hideSidebar() xmlns="http://www.w3.org/2000/svg" height="34px" viewBox="0 -960 960 960" width="34px" fill="black"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                <li class="sidebar"><a href="#">home</a></li>
+                <li class="sidebar"><a onclick="window.open('#myreceipe','_self')" >myrecipe</a></li>
+                <li class="sidebar"><a onclick="window.open('#favourite','_self')"  > favourite</a> </li>
+                <li class="sidebar"><a onclick="window.open('')" href="#">login</a> </li>
+
+            </ul>  
+        </div>
+         <a  onclick=showSidebar() class="butu" href="#"><button>menu</button><svg class="show" xmlns="http://www.w3.org/2000/svg" height="34px" viewBox="0 -960 960 960" width="34px" fill="black"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+        
+        </nav>
+  </header>
+   <main>
+    <div id="content">
+        <h2 onclick=enterRoom() class="title">
+           Recipe book
+        </h2>
+      
+        <p class="info1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi neque suscipit sint ratione corrupti nesciunt? Possimus enim delectus magni velit facere optio non molestiae sed repudiandae, repellat, laboriosam aspernatur incidunt!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas fuga facilis fugiat est eaque? Architecto quasi magni repellendus voluptate animi nisi perspiciatis similique et mollitia ab in, a error sint.
+        </p>
+        <button  onclick="window.open('#addreceipe','_self')" class="add-button">
+           <a class="dudu" >add Recipe</a> 
+        </button>
+    </div>
+    
+    <div id="foodimage">
+        <img src="images/fried-chicken-biryani-fried-rice-vegetarian-cuisine-pilaf-indian-cuisine-vegetable-food-png-clipart-removebg-preview.png" alt="">
+    </div>
+    <div>
+        <h2 id="myreceipe" >my Recipe</h2>
+    </div>
+    <div class="table">
+      
+    <div class="card1">
+        <img src="images/samosa-indian-cuisine-pakora-fizzy-drinks-vegetarian-cuisine-samoosa-thumbnail-removebg-preview.png" alt="">
+        <p class="cardinfo1">briyani</p>
+        <img class="star" title="add to favourite"  src="images/R__1_-removebg-preview.png" alt="">
+        <button onclick = "window.open('view.html','_self')" id="vieww" target="_blank" >view</button>
+       
+    </div>
+    <div class="card2">
+        <img src="images/vegetarian-cuisine-south-indian-cuisine-thali-vegetable-vegetable-thumbnail-removebg-preview.png" alt="">
+        <p class="cardinfo1">briyani</p>
+        <img class="star" title="add to favourite"  src="images/R__1_-removebg-preview.png" alt="">
+        <button  onclick = "window.open('view.html')" id="vieww" target="_blank" >view</button>
+    </div>
+
+
+    <div class="card3">
+        <img src="images/vegetarian-cuisine-indian-cuisine-biryani-thali-maharashtrian-cuisine-vegetable-thumbnail-removebg-preview.png" alt="">
+        <p class="cardinfo1">briyani</p>
+        <img class="star" title="add to favourite"  src="images/R__1_-removebg-preview.png" alt="">
+        <button onclick = "window.open('view.html','_self')">view</button>
+    </div>
+    <div class="card4">
+        <img src="images/seafood-pizza-pasta-italian-cuisine-vegetarian-cuisine-spagetti-thumbnail-removebg-preview.png" alt="">
+        <p class="cardinfo1">briyani</p>
+        <img class="star" title="add to favourite"  src="images/R__1_-removebg-preview.png" alt="">
+        <button onclick = "window.open('view.html','_self')">view</button>
+    </div>
+        <div class="card11">
+            <img src="images/samosa-indian-cuisine-pakora-fizzy-drinks-vegetarian-cuisine-samoosa-thumbnail-removebg-preview.png" alt="">
+            <p class="cardinfo1">briyani</p>
+            <img class="star" title="add to favourite"  src="images/R__1_-removebg-preview.png" alt="">
+            <button onclick = "window.open('view.html','_self')">view</button>
+           
+        </div>
+        <div class="card21">
+            <img src="images/vegetarian-cuisine-indian-cuisine-biryani-thali-maharashtrian-cuisine-vegetable-thumbnail-removebg-preview.png" alt="">
+            <p class="cardinfo1">briyani</p>
+            <img class="star" title="add to favourite"  src="images/R__1_-removebg-preview.png" alt="">
+            <button onclick = "window.open('view.html','_self')">view</button>
+        </div>
+
+        <div class="card31">
+            <img src="images/vegetarian-cuisine-south-indian-cuisine-thali-vegetable-vegetable-thumbnail-removebg-preview.png" alt="">
+            <p class="cardinfo1">briyani</p>
+            <img class="star" title="add to favourite"  src="images/R__1_-removebg-preview.png" alt="">
+            <button onclick = "window.open('view.html','_self')">view</button>
+        </div>
+        <div class="card41">
+            <img src="images/seafood-pizza-pasta-italian-cuisine-vegetarian-cuisine-spagetti-thumbnail-removebg-preview.png" alt="">
+            <p class="cardinfo1">briyani</p>
+            <img class="star" title="add to favourite"  src="images/R__1_-removebg-preview.png" alt="">
+            <button onclick = "window.open('view.html','_self')">view</button>
+        </div>
+
+      </div><br>
+        <div>
+            <h2 id="favourite">favourite</h2>
+            <div class="table3">
+                
+                <div class="card5">
+                    <img src="images/fried-chicken-biryani-fried-rice-vegetarian-cuisine-pilaf-indian-cuisine-vegetable-food-png-clipart-removebg-preview.png" alt="">
+                    <p class="cardinfo1">briyani</p>
+                    <img class="star" title="add to favourite"  src="images/R__1_-removebg-preview.png" alt="">
+                    <button onclick = "window.open('view.html','_self')">view</button>
+                   
+                </div>
+                <div class="card6">
+                    <img src="images/fried-chicken-biryani-fried-rice-vegetarian-cuisine-pilaf-indian-cuisine-vegetable-food-png-clipart-removebg-preview.png" alt="">
+                    <p class="cardinfo1">briyani</p>
+                    <img class="star" title="add to favourite"  src="images/R__1_-removebg-preview.png" alt="">
+                    <button onclick = "window.open('view.html','_self')">view</button>
+                </div>
+         
+         
+                <div class="card7">
+                    <img src="images/fried-chicken-biryani-fried-rice-vegetarian-cuisine-pilaf-indian-cuisine-vegetable-food-png-clipart-removebg-preview.png" alt="">
+                    <p class="cardinfo1">briyani</p>
+                    <img class="star" title="add to favourite"  src="images/R__1_-removebg-preview.png" alt="">
+                    <button onclick = "window.open('view.html','_self')">view</button>
+                </div>
+                <div class="card8">
+                    <img src="images/fried-chicken-biryani-fried-rice-vegetarian-cuisine-pilaf-indian-cuisine-vegetable-food-png-clipart-removebg-preview.png" alt="">
+                    <p class="cardinfo1">briyani</p>
+                    <img class="star" title="add to favourite"  src="images/R__1_-removebg-preview.png" alt="">
+                    <button onclick = "window.open('view.html','_self')">view</button>
+                </div>
+       
+                </div>
+        </div><br>
+        <form class="room " id="addreceipe">
+            <h1 class="title5" id="title" >
+                add recipe
+            </h1><br>
+
+            <label for="textinp" class="itemtitle"> title</label> <br>   
+              <input type="text" id="textinp" >
+             <br><br>
+
+            <label for="title" >Ingrediants</label><br>
+           <textarea   name="text" id="titlename1" rows="15" cols="8" ></textarea>
+            <br><br>
+            <label for="howtocook">How to cook</label><br>
+            <textarea name="text" id="titlename2" rows="15" cols="12" ></textarea>
+
+              <button id="btn1" type="submit">click</button>
+   
+            
+        </form>
+
+   </main>
+
+   <footer>
+    this website created by sribaa
+   </footer>
+    <script>
+        function showSidebar(){
+            const dd = document.querySelector('.dd')
+            dd.style.display= 'block' 
+        }
+        function hideSidebar(){
+            const dd = document.querySelector('.dd')
+            dd.style.display= 'none'
+        }
+       
+
+        const addreceipe = document.getElementById('addreceipe');
+        const textinp = document.getElementById('textinp');
+        const titlename1 = document.getElementById('titlename1');
+        const titlename2 = document.getElementById('titlename2');
+
+
+        addreceipe.addEventListener('submit',function(e) 
+        {e.preventDefault();
+
+        const textInpuvalue = textinp.value;
+        const titlevalue = titlename1.value;
+        const titlevalueu = titlename2.value;
+
+
+         localStorage.setItem('out',textInpuvalue);
+         localStorage.setItem('name1',titlevalue);
+         localStorage.setItem('out2',titlevalueu);
+         
+
+        window.location.href = "addrecipe.html";
+      
+         })
+
+
+
+
+
+
+
+      
+            
+        
+    </script>;
+</body>
+</html>
